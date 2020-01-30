@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wall
+{
+    width: 978px;
+    height: 1000px;
+    background: linear-gradient(silver, orangered, orange, orangered, silver);
+}
+#form
+{
+    width: 500px;
+    height: 265px;
+    background: linear-gradient(black, grey,black);
+    border: solid black;
+    display: inline-block;
+    line-height: 2;
+    margin-left: 230px;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px;
+}
+#form2
+{
+    width: 500px;
+    height: 376px;
+    padding-left: 20px;
+    background: linear-gradient(black, grey,black);
+    border: solid black;
+    display: inline-block;
+    line-height: 2;
+    margin-left: 230px;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px;
+}
+h1
+{
+    text-align: center;
+    color: yellow;
+}
+.formfont
+{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(153, 153, 153);
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#button
+{
+    margin-top: 15px;
+    margin-left: 213px; 
+    background: linear-gradient(silver, orangered, orange, orangered, silver);
+    height: 30px;
+    width: 120px;
+    color: black;
+    border-radius: 10px;
+    
+}
+#button:hover
+{
+    margin-top: 15px;
+    margin-left: 213px; 
+    background: linear-gradient(orange, orangered, orange);
+    height: 30px;
+    width: 120px;
+    color: black;
+    border-radius: 10px;
+    
+}
+.box
+{
+    float: right;
+    margin-right: 75px;
+    margin-top: 15px;
+
+}
